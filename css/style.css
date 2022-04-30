@@ -1,0 +1,797 @@
+@font-face {
+  font-family: "Futura Bk";
+  src: url("../fonts/FuturaBkBT.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+html {
+  background: #E5E5E5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  width: 1440px;
+  height: 6828px;
+  margin: 0 auto;
+  background: #FFFFFF;
+}
+
+button {
+  width: 163px;
+  height: 48px;
+  border: none;
+  border-radius: 50px;
+  background: #EEE;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000;
+}
+
+header .header__title {
+  position: absolute;
+  top: 13px;
+  right: 40px;
+  text-decoration: none;
+  font-family: Futura Bk, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+header .header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 47px;
+  width: 1440px;
+  height: 65px;
+  background: #F6F6F6;
+}
+header .header__menu img {
+  position: absolute;
+  top: 15px;
+  left: 114px;
+  width: 82px;
+  height: 34px;
+}
+header .header__menu nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+  position: absolute;
+  top: 23px;
+  left: 510px;
+  width: 460px;
+  height: 20px;
+}
+header .header__menu nav a {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #000000;
+}
+header .header__menu div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 25px;
+     -moz-column-gap: 25px;
+          column-gap: 25px;
+  width: 77px;
+  position: absolute;
+  top: 20px;
+  right: 185px;
+}
+header .header__menu div a {
+  font-size: 27px;
+  color: black;
+}
+
+main .main__register {
+  position: absolute;
+  top: 142px;
+  left: 575px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+main .main__register a {
+  color: #000000;
+}
+main .main__section__first {
+  position: absolute;
+  top: 196px;
+  left: 93px;
+}
+main .main__section__first img {
+  width: 1254px;
+  height: 524px;
+}
+main .main__section__first h2 {
+  position: absolute;
+  top: 74px;
+  left: 46px;
+  width: 414px;
+  height: 129px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 43px;
+  color: #FFFFFF;
+}
+main .main__section__first div {
+  position: absolute;
+  bottom: 33px;
+  left: 54px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-column-gap: 33px;
+     -moz-column-gap: 33px;
+          column-gap: 33px;
+}
+main .main__section__first div a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-decoration: none;
+}
+main .main__section__first div a p {
+  margin-right: 10px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+main .main__section__first div a ion-icon {
+  font-size: 21px;
+  color: #FFF;
+}
+main .main__section__second {
+  position: absolute;
+  top: 763px;
+  left: 549px;
+  height: 150px;
+  width: 342px;
+  text-align: center;
+}
+main .main__section__second h2 {
+  margin-bottom: 9px;
+  font-family: Futura PT, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 44px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+main .main__section__second p {
+  margin-bottom: 27px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+}
+main .main__section__second button:last-child {
+  margin-left: 12px;
+  background: #000;
+  color: #fff;
+}
+main .main__section__third {
+  overflow: hidden;
+  position: absolute;
+  top: 1057px;
+  height: 590px;
+  width: 1350px;
+  padding-left: 90px;
+}
+main .main__section__third img {
+  width: 454px;
+  height: 454px;
+}
+main .main__section__third .section__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main .main__section__third .section__top h2 {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+}
+main .main__section__third .section__top div {
+  width: 78px;
+  height: 26px;
+  position: absolute;
+  top: 4px;
+  right: 55px;
+}
+main .main__section__third .section__top div a {
+  margin-left: 10px;
+  font-size: 26px;
+}
+main .main__section__third .section__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-column-gap: 60px;
+     -moz-column-gap: 60px;
+          column-gap: 60px;
+  position: absolute;
+  top: 65px;
+  width: 1350px;
+  height: 524px;
+  text-decoration: none;
+}
+main .main__section__third .section__main a {
+  position: relative;
+  width: 454px;
+  height: 524px;
+  text-decoration: none;
+}
+main .main__section__third .section__main a .section__nike {
+  width: 454px;
+  height: 454px;
+  background: #F6F6F6;
+}
+main .main__section__third .section__main a .section__nike img {
+  position: absolute;
+  top: 30px;
+  left: -50px;
+}
+main .main__section__third .section__main a p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #949494;
+}
+main .main__section__third .section__main a .section__center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 20px;
+  width: 454px;
+}
+main .main__section__third .section__main a .section__center h3 {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+main .main__section__third .section__main a .section__center div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: 0;
+}
+main .main__section__third .section__main a .section__center div ion-icon {
+  margin-left: 5px;
+  font-size: 20px;
+}
+main .main__section__third .section__main .section__last img {
+  width: 322px;
+}
+main .main__section__forth, main .main__section__seventh, main .main__section__ninth {
+  overflow: hidden;
+  position: absolute;
+  top: 1719px;
+  height: 610px;
+  width: 1350px;
+  padding-left: 90px;
+}
+main .main__section__forth .section__top, main .main__section__seventh .section__top, main .main__section__ninth .section__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main .main__section__forth .section__top h2, main .main__section__seventh .section__top h2, main .main__section__ninth .section__top h2 {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+}
+main .main__section__forth .section__top div, main .main__section__seventh .section__top div, main .main__section__ninth .section__top div {
+  width: 78px;
+  height: 26px;
+  position: absolute;
+  top: 4px;
+  right: 55px;
+}
+main .main__section__forth .section__top div a, main .main__section__seventh .section__top div a, main .main__section__ninth .section__top div a {
+  margin-left: 10px;
+  font-size: 26px;
+}
+main .main__section__forth .section__main, main .main__section__seventh .section__main, main .main__section__ninth .section__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-column-gap: 60px;
+     -moz-column-gap: 60px;
+          column-gap: 60px;
+  position: absolute;
+  top: 65px;
+  width: 1350px;
+  height: 539px;
+  text-decoration: none;
+}
+main .main__section__forth .section__main a, main .main__section__seventh .section__main a, main .main__section__ninth .section__main a {
+  position: relative;
+  width: 839px;
+  height: 539px;
+  text-decoration: none;
+}
+main .main__section__forth .section__main a img, main .main__section__seventh .section__main a img, main .main__section__ninth .section__main a img {
+  width: 839px;
+  height: 454px;
+}
+main .main__section__forth .section__main a p, main .main__section__seventh .section__main a p, main .main__section__ninth .section__main a p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #949494;
+}
+main .main__section__forth .section__main a .center, main .main__section__seventh .section__main a .center, main .main__section__ninth .section__main a .center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 20px;
+  width: 839px;
+}
+main .main__section__forth .section__main a .center h3, main .main__section__seventh .section__main a .center h3, main .main__section__ninth .section__main a .center h3 {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+main .main__section__forth .section__main a .center div, main .main__section__seventh .section__main a .center div, main .main__section__ninth .section__main a .center div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: 0;
+}
+main .main__section__forth .section__main a .center div ion-icon, main .main__section__seventh .section__main a .center div ion-icon, main .main__section__ninth .section__main a .center div ion-icon {
+  margin-left: 5px;
+  font-size: 20px;
+}
+main .main__section__forth .section__main .last img, main .main__section__seventh .section__main .last img, main .main__section__ninth .section__main .last img {
+  width: 452px;
+}
+main .main__section__fifth {
+  position: absolute;
+  top: 2466px;
+  height: 849px;
+  width: 1350px;
+  padding-left: 90px;
+}
+main .main__section__fifth .section__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main .main__section__fifth .section__top h2 {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+}
+main .main__section__fifth .section__top div {
+  width: 78px;
+  height: 26px;
+  position: absolute;
+  top: 4px;
+  right: 55px;
+}
+main .main__section__fifth .section__top div a {
+  margin-left: 10px;
+  font-size: 26px;
+}
+main .main__section__fifth .section__main {
+  position: absolute;
+  top: 65px;
+  width: 1551px;
+  height: 782px;
+  text-decoration: none;
+}
+main .main__section__fifth .section__main img {
+  width: 1350px;
+  height: 782px;
+}
+main .main__section__fifth .section__main h3 {
+  position: absolute;
+  top: 604px;
+  left: 55px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  z-index: 2;
+  color: #FFFFFF;
+}
+main .main__section__fifth .section__main button {
+  position: absolute;
+  top: 656px;
+  left: 52px;
+  z-index: 2;
+  background: #000;
+  color: #FFF;
+}
+main .main__section__sixth {
+  overflow: hidden;
+  position: absolute;
+  top: 3453px;
+  height: 590px;
+  width: 1350px;
+  padding-left: 90px;
+}
+main .main__section__sixth img {
+  width: 454px;
+  height: 454px;
+}
+main .main__section__sixth .section__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main .main__section__sixth .section__top h2 {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+}
+main .main__section__sixth .section__top div {
+  width: 78px;
+  height: 26px;
+  position: absolute;
+  top: 4px;
+  right: 55px;
+}
+main .main__section__sixth .section__top div a {
+  margin-left: 10px;
+  font-size: 26px;
+}
+main .main__section__sixth .section__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-column-gap: 60px;
+     -moz-column-gap: 60px;
+          column-gap: 60px;
+  position: absolute;
+  top: 65px;
+  width: 1350px;
+  height: 524px;
+  text-decoration: none;
+}
+main .main__section__sixth .section__main a {
+  position: relative;
+  width: 454px;
+  height: 524px;
+  text-decoration: none;
+}
+main .main__section__sixth .section__main a #nike {
+  width: 454px;
+  height: 454px;
+  background: #F6F6F6;
+}
+main .main__section__sixth .section__main a #nike img {
+  position: absolute;
+  top: 30px;
+  left: -50px;
+}
+main .main__section__sixth .section__main a p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #949494;
+}
+main .main__section__sixth .section__main a .center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 20px;
+  width: 454px;
+}
+main .main__section__sixth .section__main a .center h3 {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+main .main__section__sixth .section__main a .center div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: 0;
+}
+main .main__section__sixth .section__main a .center div ion-icon {
+  margin-left: 5px;
+  font-size: 20px;
+}
+main .main__section__sixth .section__main .last img {
+  width: 323px;
+}
+main .main__section__seventh {
+  top: 4182px;
+  height: 740px;
+}
+main .main__section__seventh .section__main {
+  height: 669px;
+}
+main .main__section__seventh .section__main a {
+  position: relative;
+  width: 864px;
+  height: 669px;
+}
+main .main__section__seventh .section__main a img {
+  width: 864px;
+  height: 584px;
+}
+main .main__section__seventh .section__main .last img {
+  width: 427px;
+}
+main .main__section__eighth {
+  position: absolute;
+  top: 5064px;
+  width: 1440px;
+  height: 430px;
+}
+main .main__section__eighth img {
+  width: 1440px;
+  height: 430px;
+}
+main .main__section__eighth h2 {
+  position: absolute;
+  top: 69px;
+  left: 771px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 55px;
+  color: #FFFFFF;
+}
+main .main__section__eighth p {
+  position: absolute;
+  top: 146px;
+  left: 771px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+main .main__section__eighth button {
+  position: absolute;
+  top: 240px;
+  left: 800px;
+}
+main .main__section__ninth {
+  top: 5632px;
+  height: 668px;
+}
+main .main__section__ninth .section__main {
+  height: 668px;
+}
+main .main__section__ninth .section__main a {
+  position: relative;
+  width: 864px;
+  height: 668px;
+}
+main .main__section__ninth .section__main a img {
+  width: 596px;
+  height: 601px;
+}
+main .main__section__ninth .section__main a button {
+  position: absolute;
+  top: 525px;
+  left: 26px;
+  background: #FFF;
+}
+main .main__section__ninth .section__main .last img {
+  width: 39px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 1440px;
+  height: 425px;
+  background: #F6F6F6;
+}
+footer .footer__section__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+  height: 410px;
+}
+footer .footer__section__top div:first-child, footer .footer__section__top div:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 74px;
+  margin-left: 93px;
+  height: 180px;
+  width: 180px;
+}
+footer .footer__section__top div:first-child h2, footer .footer__section__top div:nth-child(2) h2 {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 23px;
+  color: #000;
+}
+footer .footer__section__top div:first-child a, footer .footer__section__top div:nth-child(2) a {
+  margin-top: 18px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 23px;
+  text-decoration: none;
+  color: #858585;
+}
+footer .footer__section__top div:first-child a:nth-child(2), footer .footer__section__top div:nth-child(2) a:nth-child(2) {
+  margin-top: 40px;
+}
+footer .footer__section__top div:nth-child(2) {
+  margin-left: 101px;
+}
+footer .footer__section__top div:last-child {
+  position: absolute;
+  top: 61px;
+  right: 67px;
+  width: 50px;
+  height: 200px;
+}
+footer .footer__section__top div:last-child a ion-icon {
+  font-size: 50px;
+  color: #ACACAC;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  background: #DBDBDB;
+}
+footer .footer__section__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 66px;
+  bottom: 0;
+  width: 1308px;
+  height: 85px;
+  border-top: 1px solid #C4C4C4;
+}
+footer .footer__section__bottom p {
+  margin-top: 33px;
+  margin-left: 27px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #858585;
+}
+footer .footer__section__bottom div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: 0;
+  width: 600px;
+  height: 85px;
+}
+footer .footer__section__bottom div a {
+  margin-top: 33px;
+  margin-right: 46px;
+  text-decoration: none;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: #858585;
+}
